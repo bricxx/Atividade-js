@@ -124,12 +124,12 @@ document.getElementById('btn17').addEventListener('click', function() {
 // Dica: use .value para ler e definir o texto dos inputs
 
 
-const botao = document.getElementById('btn18');
+const btn18= document.getElementById('btn18');
 const inputA = document.getElementById('input18a');
 const inputB = document.getElementById('input18b');
 
 botao.addEventListener('click', function() {
-    /
+    
     inputB.value = inputA.value;
 });
 
@@ -167,7 +167,7 @@ btnMenos.addEventListener('click', function() {
 // Dica: input type="color" tambem tem .value
 
 
-const botao = document.getElementById('btn20');
+const btn20 = document.getElementById('btn20');
 const inputCor = document.getElementById('corInput20');
 const caixa = document.getElementById('caixa20');
 
